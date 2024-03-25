@@ -2,10 +2,10 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const DynamicForm = () => {
-  const [data, setData] = useState([{ name: "Jeevan", Role: "Admin" }]);
+  const [data, setData] = useState([{ name: "Jeevan", role: "Admin" }]);
 
   const handleAdd = () => {
-    setData([...data, { name: "", Role: "" }]);
+    setData([...data, { name: "", role: "" }]);
   };
 
   const handleChange = (e, index) => {
@@ -45,7 +45,7 @@ const DynamicForm = () => {
                 <td>
                   <input
                     className="form-control"
-                    defaultValue={item.Role}
+                    defaultValue={item.role}
                     onChange={(e) => handleChange(e, index)}
                     name="role"
                   />
