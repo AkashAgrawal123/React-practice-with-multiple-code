@@ -1,10 +1,12 @@
 import "./App.scss";
-import ReduxWrapper from "./ReduxCode/ReduxWrapper";
+import DynamicForm from "./DynamicForm/DynamicForm";
+// import ReduxWrapper from "./ReduxCode/ReduxWrapper";
 
 const App = () => {
   return (
     <>
-      <ReduxWrapper />
+      {/* <ReduxWrapper /> */}
+      <DynamicForm />
     </>
   );
 };
