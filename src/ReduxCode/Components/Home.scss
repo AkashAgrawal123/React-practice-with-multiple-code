@@ -1,0 +1,33 @@
+.cart-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  padding: 24px;
+  width: fit-content;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.img-wrapper img {
+  width: 100px;
+  height: 100px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn-wrapper button {
+  color: #ffffff;
+  background: #7352c1;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 16px;
+}
